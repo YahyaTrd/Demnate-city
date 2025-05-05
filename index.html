@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demnate</title>
+    <link rel="shortcut icon" href="images/logo.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Relief:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Condensed+One&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Comic+Relief:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Condensed+One&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Travel </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Popular</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#explore" class="nav__link">Explore</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home section" id="home">
+        <img src="images/home.jpg" alt="home image" class="home__bg" />
+        <div class="home__shadow"></div>
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Welcome to Demnate</h3>
+            <h1 class="home__title">Explore The City</h1>
+            <p class="home__description">
+              Here you will find information about this city.
+            </p>
+            <a id="about" class="button">
+              learn more <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+          <div class="home__cards grid">
+            <article class="home__card">
+              <img
+                src="images/demnate.jpg"
+                alt="view"
+                class="home__cards-img"
+                height="10"
+                width="400"
+              />
+              <h3 class="home__card-title">Demnat from above</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="images/college .jpg"
+                alt="college"
+                class="home__cards-img"
+                height="10"
+                width="400"
+              />
+              <h3 class="home__card-title">
+                Imam Ali Secondary School in Imlil
+              </h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                height="10"
+                width="400"
+                src="images/dar chabab.jpg"
+                alt="dar chabab"
+                class="home__cards-img"
+              />
+              <h3 class="home__card-title">Dar Chabab</h3>
+              <!--<div class="home__card-shadow"></div>-->
+            </article>
+
+            <article class="home__card">
+              <img
+                src="images/jam3.jpg"
+                height="10"
+                width="400"
+                alt="jam3"
+                class="home__cards-img"
+              />
+              <h3 class="home__card-title">The mosque</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="about section">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title" id="about">About <b>for Demnate</b></h2>
+            <p class="about__description">
+              Demnat is a city located in central Morocco, at the foot of the
+              high Atlas Mountains, about 110 kilometers east of Marrakesh. The
+              majority of the population speaks Berber, with the local dialect
+              being Tachelhit, as well as Darija and some French.
+            </p>
+          </div>
+          <div class="about__image">
+            <img
+              class="about__img"
+              src="images/about.jpg"
+              height="20"
+              width="500"
+              alt="about"
+            />
+            <div class="about__shadow"></div>
+          </div>
+        </div>
+      </section>
+      <section class="popular section" id="popular">
+        <h2 class="section__title">
+          Enjoy The Beauty <br />
+          Of The Demnat
+        </h2>
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <div class="popular__image">
+              <img
+                src="images/house.jpg"
+                alt="house"
+                height="1042rem"
+                width="150rem"
+              />
+              <div class="popular__shadow"></div>
+            </div>
+            <h2 class="popular__title">Demnat</h2>
+            <div class="popular__location">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Demnat</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="explore section" id="explore">
+        <div class="explore__container">
+          <div class="explore__image">
+            <div class="explore__content container grid">
+              <div class="explore__data">
+                <h2 class="section__title">Explore The <br />Best Paradises</h2>
+                <p class="explore__description">
+                  Now we have discovered most of the famous and unknown areas of
+                  Demnat in order to revive this city a little, and I hope that
+                  in the future it will have horizons and become one of the big
+                  cities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+  </section>
+  <section class="join section">
+    <div class="join__container container grid">
+      <div class="join__data">
+        <h2 class="section__title">
+          Your Journey <br />
+          Starts Here
+        </h2>
+        <p class="join__description">
+          Get up to date with the latest travel and information from us.
+        </p>
+        <form action="" class="join__form">
+          <input id="email-field" type="email" spellcheck="false" placeholder="Enter your email" class="join__input">
+          
+          <a href="thanks.html" id="email-label" class="join__button button">
+            Subscribe
+          </a>
+        </form>
+      </div>
+    </div>
+  </section>
+
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+<div>
+  <a href="#" class="footer__logo">Travel</a>
+</div>
+<div class="footer__data grid">
+  <div>
+    <h3 class="footer__title">About</h3>
+    <ul class="footer__links">
+      <li>
+        <a href="#" class="footer__links">About Us</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">Features</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">News & Blog</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="footer__title">Company</h3>
+    <ul class="footer__links">
+      <li>
+        <a href="#" class="footer__links">FAQs</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">History</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">Testimonials</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="footer__title">Contact</h3>
+    <ul class="footer__links">
+      <li>
+        <a href="#" class="footer__links">Call Center</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">Support Center</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h3 class="footer__title">Support</h3>
+    <ul class="footer__links">
+      <li>
+        <a href="#" class="footer__links">Privacy Policy</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">Terms & Services</a>
+      </li>
+
+      <li>
+        <a href="#" class="footer__links">Payments</a>
+      </li>
+    </ul>
+  </div>
+</div>
+        </div>
+<div class="footer__group">
+  <div class="footer__social">
+    <a href="https://www.instagram.com/yahya_taouarda/" target="_blank" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://web.facebook.com/TaouardaYahya/?_rdc=1&_rdr#" target="_blank" class="footer__social-link"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://github.com/YahyaTrd" target="_blank" class="footer__social-link"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/yahya-taouarda-886955313/" target="_blank" class="footer__social-link"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <div class="footer__copy">2025 Yahya-Taouarda. All right reserved.</div>
+</div>
+      </div>
+    </footer>
+    <a href="" id="scroll-up" class="scrollup"><i class="fa-solid fa-up-long"></i></a>
+    <script src="scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
